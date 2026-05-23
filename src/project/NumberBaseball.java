@@ -46,7 +46,6 @@ public class NumberBaseball {
             // 3. 스트라이크와 볼 판정 로직
             for (int i = 0; i < 3; i++) {
                 for (int j = 0; j < 3; j++) {
-                    // 숫자가 일치하는지 확인
                     if (answer[i] == user[j]) {
                         if (i == j) {
                             strike++;
